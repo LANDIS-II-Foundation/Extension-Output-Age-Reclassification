@@ -56,6 +56,7 @@ namespace Landis.Extension.Output.AgeReclass
             mapDefs = parameters.ReclassMaps;
             reclassCoefs = parameters.ReclassCoefficients;
             SiteVars.Initialize();
+            MetadataHandler.InitializeMetadata(Timestep, mapNameTemplate, mapDefs);
         }
 
         //---------------------------------------------------------------------
