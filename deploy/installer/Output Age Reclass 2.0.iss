@@ -1,5 +1,5 @@
-#define PackageName      "Age Reclass Output"
-#define PackageNameLong  "Age Reclassification Output"
+#define PackageName      "Output Age Reclassification"
+#define PackageNameLong  "Output Age Reclassification"
 #define Version          "2.0"
 #define ReleaseType      "official"
 #define CoreVersion      "6.0"
