@@ -59,7 +59,7 @@ CellLength  	100 << meters, 100 x 100 m = 1 ha
 >> 	----------------		-------------------
 	"Output Max Species Age"	output_MaxSppAge.txt
 	"Output Cohort Statistics"	output_CohortStats.txt
-	"Output Age Reclass"		output_AgeReclass.txt
+	"Output Age Reclassification"	output_AgeReclass.txt
 
 
 >> RandomNumberSeed  147  << optional parameter; uncomment for reproducibilty tests

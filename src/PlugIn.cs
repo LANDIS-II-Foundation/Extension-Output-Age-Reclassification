@@ -14,7 +14,7 @@ namespace Landis.Extension.Output.AgeReclass
         : ExtensionMain
     {
         public static readonly ExtensionType ExtType = new ExtensionType("output");
-        public static readonly string ExtensionName = "Output Age Reclass";
+        public static readonly string ExtensionName = "Output Age Reclassification";
 
         private string mapNameTemplate;
         private IEnumerable<IMapDefinition> mapDefs;
