@@ -1,6 +1,6 @@
 LandisData   Extension
 
-Name         "internal-to-LANDISII Output Age Reclass"
+Name         "Output Age Reclass"
 Version      2.1
 Type         output
 Assembly     Landis.Extension.Output.AgeReclass
