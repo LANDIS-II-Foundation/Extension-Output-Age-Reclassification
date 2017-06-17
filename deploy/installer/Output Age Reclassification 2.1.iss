@@ -29,9 +29,9 @@ Source: ..\..\src\bin\debug\Landis.Extension.Output.AgeReclass.dll; DestDir: {#E
 
 
 ; Complete example for testing the extension
-Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Age Reclass
-Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Age Reclass
-Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Age Reclass
+Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Age Reclass; Flags: replacesameversion
+Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Age Reclass; Flags: replacesameversion
+Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Age Reclass; Flags: replacesameversion
 
 
 ; LANDIS-II identifies the extension with the info in this .txt file
