@@ -24,14 +24,10 @@ Source: ..\..\src\bin\debug\Landis.Extension.Output.AgeReclass.dll; DestDir: {#E
 ; (There are no auxiliary libraries for Output Age Reclassification)
 
 
-; User Guides are no longer shipped with installer
-; Source: docs\LANDIS-II Age Reclass Output v2.0 User Guide.pdf; DestDir: {#AppDir}\docs
-
-
 ; Complete example for testing the extension
-Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Age Reclass; Flags: replacesameversion
-Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Age Reclass; Flags: replacesameversion
-Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Age Reclass; Flags: replacesameversion
+Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Age Reclassification; Flags: replacesameversion
+Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Age Reclassification; Flags: replacesameversion
+Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Age Reclassification; Flags: replacesameversion
 
 
 ; LANDIS-II identifies the extension with the info in this .txt file
