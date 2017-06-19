@@ -1,4 +1,4 @@
-LandisData  "Output Age Reclass"
+LandisData  "Output Age Reclassification"
 
 
 Timestep   15

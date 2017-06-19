@@ -1,6 +1,6 @@
 #define PackageName      "Output Age Reclassification"
 #define PackageNameLong  "Output Age Reclassification"
-#define Version          "2.0"
+#define Version          "2.1"
 #define ReleaseType      "official"
 #define CoreVersion      "6.0"
 #define CoreReleaseAbbr  ""
@@ -24,19 +24,15 @@ Source: ..\..\src\bin\debug\Landis.Extension.Output.AgeReclass.dll; DestDir: {#E
 ; (There are no auxiliary libraries for Output Age Reclassification)
 
 
-; User Guides are no longer shipped with installer
-; Source: docs\LANDIS-II Age Reclass Output v2.0 User Guide.pdf; DestDir: {#AppDir}\docs
-
-
 ; Complete example for testing the extension
-Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Age Reclass
-Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Age Reclass
-Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Age Reclass
+Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Age Reclassification; Flags: replacesameversion
+Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Age Reclassification; Flags: replacesameversion
+Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Age Reclassification; Flags: replacesameversion
 
 
 ; LANDIS-II identifies the extension with the info in this .txt file
 ; NB. New releases must modify the name of this file and the info in it
-#define InfoTxt "Output Age Reclass 2.0.txt"
+#define InfoTxt "Output Age Reclassification 2.1.txt"
 Source: {#InfoTxt}; DestDir: {#LandisPlugInDir}
 
 [Run]
