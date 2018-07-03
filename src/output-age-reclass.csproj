@@ -10,9 +10,9 @@
     <AssemblyVersion>3.0</AssemblyVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Base-Wind</RepositoryUrl>
+    <RepositoryUrl>https://github.com/LANDIS-II-Foundation/Extension-Output-Age-Reclassification</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Extension-Base-Wind/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/LANDIS-II-Foundation/Extension-Output-Age-Reclassification/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>http://www.landis-ii.org</PackageProjectUrl>
     <NeutralLanguage>English</NeutralLanguage>
     <Authors>LANDIS-II Foundation</Authors>
