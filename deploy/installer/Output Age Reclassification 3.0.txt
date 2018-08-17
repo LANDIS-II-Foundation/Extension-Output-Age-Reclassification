@@ -3,7 +3,7 @@ LandisData   Extension
 Name         "Output Age Reclassification"
 Version      3.0
 Type         output
-Assembly     Landis.Extension.Output.AgeReclass
+Assembly     Landis.Extension.Output.AgeReclass-v3
 Class        Landis.Extension.Output.AgeReclass.PlugIn
 Description  "Output forest reclassification maps"
 CoreVersion  7.0
