@@ -23,14 +23,14 @@ Version 3.0 can be downloaded [here](https://github.com/LANDIS-II-Foundation/Ext
 
 LANDIS-II requires a global parameter file for your scenario, and separate parameter files for each extension.
 
-Example files are [here](https://github.com/LANDIS-II-Foundation/UPDATE LATER.zip).
+Example files are [here](https://github.com/LANDIS-II-Foundation/Extension-Output-Age-Reclassification/blob/master/testings/version-tests/Corev7-AgeReclass3.0/age-only-reclassification-example.zip).
 
 # Support
 
-If you have a question, please contact Robert Scheller at rschell@ncsu. 
+If you have a question, please contact Robert Scheller. 
 You can also ask for help in the [LANDIS-II users group](http://www.landis-ii.org/users).
 
-If you come across any issue or suspected bug when using this extension, please post about it in the [issue section of the Github repository](https://github.com/LANDIS-II-Foundation/Extension-Output-Age-Reclassification/issues).
+If you come across any issue or suspected bug when using this extension, please post about it in the [issue section of the Github repository](https://github.com/LANDIS-II-Foundation/Extension-Output-Age-Reclassification/issues) (GitID required).
 
 # Author
 
