@@ -1,7 +1,7 @@
 //  Authors:   Robert M. Scheller, James B. Domingo
 
 using Landis.SpatialModeling;
-using Landis.Library.AgeOnlyCohorts;
+using Landis.Library.UniversalCohorts;
 using Landis.Core;
 
 using System.Collections.Generic;
@@ -165,11 +165,17 @@ namespace Landis.Extension.Output.AgeReclass
                 {
                     //ModelCore.UI.WriteLine("cohort spp = {0}, compare species = {1}.", sppCohorts.Species.Name, spp.Name);
                     foreach (ICohort cohort in sppCohorts)
-                        if (cohort.Age > max)
-                            max = cohort.Age;
+                        if (cohort.Data.Age > max)
+                            max = cohort.Data.Age;
                 }
             }
             return max;
+        }
+
+        public override void AddCohortData()
+        {
+            // CUSTOM DYNAMIC PARAMETERS HERE
+            return;
         }
     }
 }
