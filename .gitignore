@@ -216,3 +216,6 @@ testings/version-tests/Corev8-AgeReclass3.1/Landis-climate-log.txt
 testings/version-tests/Corev8-AgeReclass3.1/Landis-log.txt
 /testings/version-tests/Corev8-AgeReclass3.1/Metadata
 /testings/version-tests/Corev8-AgeReclass3.1/outputs
+testings/Corev8-AgeReclass4.0/Landis-log.txt
+testings/Corev8-AgeReclass4.0/Metadata/LANDIS-II v8.0/LANDIS-II v8.0.xml
+src/output-age-reclass.sln
